@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Home Page</title>
+</head>
+<body>
+<div class="navbar">
+    <div class="container">
+    <a href="#" class="logo">Prabin<span>Dhital</span></a>
+    <img src="image/menu.JPG" alt="menu-menu" height="50px" class="mobile-cta" id="mobile-menu" onclick="show()">
+    <nav>
+        <img src="image/exit.jpg" alt="exit image" height="20" id="mobile-exit" onclick="hide()">
+        <ul class="primary-nav">
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Pricing</a></li>
+        
+           
+        </ul>
+        <ul class="Secondary-nav">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="go-primeium-cta">Go-primeium</a></li>  
+        </ul>
+    </nav>
+    </div>
+</div>
+
+<section name="" class="hero">
+    <div class="container">
+        <div class="left-col">
+            <p class="subhead"> Its Netty &amp; Gritty</p>
+            <h1>A Task App That Dosen't Stink</h1>
+            <div class="hero-cta">
+                <a href="#" class="primery-cta">Try for free </a>
+                <a href="#" class="watch-video-cta"> <img src="/image/video.png" alt="" height="50px"> Watch a video</a>
+               
+            </div>
+        </div>
+        <img src="/image/clap.jpg" class="hero-img" alt="">
+    </div>
+</section>
+<section class="feature-section">
+    <div class="container">
+        <ul class="feature-list">
+            <li>Unlimited Task</li>
+            <li>Sms Task Reminder</li>
+            <li>Confeti Exolosions upon Task Completions</li>
+            <li>Social Media Annoucement</li>
+            <li>Real Time Colorabation</li>
+            <li>Other Awesome Feature</li>
+        </ul>
+        <img src="image/holdingPhone.jfif" alt=""> 
+    </div>
+</section>
+<section class="testimonials-section">
+    <ul>
+        <li><img src="image/person.jpg" alt="">
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus itaque libero similique quae id ratione harum ipsam quisquam rem facilis at, praesentium adipisci eligendi autem veritatis enim culpa a consequatur!</blockquote>
+            <cite> Prabin D</cite></li>
+            <li><img src="image/person.jpg" alt="">
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus itaque libero similique quae id ratione harum ipsam quisquam rem facilis at, praesentium adipisci eligendi autem veritatis enim culpa a consequatur!</blockquote>
+                <cite> Prabin D</cite></li>
+                <li><img src="image/person.jpg" alt="">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus itaque libero similique quae id ratione harum ipsam quisquam rem facilis at, praesentium adipisci eligendi autem veritatis enim culpa a consequatur!</blockquote>
+                    <cite> Prabin D</cite></li>
+    </ul>
+</section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                   
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                   <input type="submit">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.84796011186!2d-9.230243483736736!3d38.743739595902696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbon!5e0!3m2!1sen!2spt!4v1613770140083!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <script>
+      function show(){
+          document.querySelector('nav').style.display='block';
+      }
+      function hide(){
+          document.querySelector('nav').style.display='none';
+      }
+    </script>
+</body>
+</html>
